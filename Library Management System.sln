@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Library Management System", "Library Management System.sqlproj", "{A6DC2FEA-5A72-420B-AD1B-6C7CF1A079BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6DC2FEA-5A72-420B-AD1B-6C7CF1A079BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DC2FEA-5A72-420B-AD1B-6C7CF1A079BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DC2FEA-5A72-420B-AD1B-6C7CF1A079BF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A6DC2FEA-5A72-420B-AD1B-6C7CF1A079BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DC2FEA-5A72-420B-AD1B-6C7CF1A079BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DC2FEA-5A72-420B-AD1B-6C7CF1A079BF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52831680-9CB3-4554-B4B2-AEAF1354F654}
+	EndGlobalSection
+EndGlobal

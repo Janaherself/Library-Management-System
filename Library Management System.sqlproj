@@ -58,5 +58,24 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="ERMD" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ERMD\LibraryERD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Loans.sql" />
+    <Build Include="dbo\Tables\Borrowers.sql" />
+    <Build Include="dbo\Tables\Books.sql" />
+    <Build Include="dbo\Tables\AuditLog.sql" />
+    <Build Include="dbo\Functions\fn_CalculateOverdueFees.sql" />
+    <Build Include="dbo\Functions\fn_BookBorrowingFrequency.sql" />
+    <Build Include="dbo\Stored Procedures\sp_OverdueBooks.sql" />
+    <Build Include="dbo\Stored Procedures\sp_BorrowedBooksReport.sql" />
+    <Build Include="dbo\Stored Procedures\sp_AddNewBorrower.sql" />
   </ItemGroup>
 </Project>

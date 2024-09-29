@@ -63,6 +63,7 @@
     <Folder Include="ERMD" />
     <Folder Include="dbo\Functions\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Storage\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ERMD\LibraryERD.png" />
@@ -77,5 +78,7 @@
     <Build Include="dbo\Stored Procedures\sp_OverdueBooks.sql" />
     <Build Include="dbo\Stored Procedures\sp_BorrowedBooksReport.sql" />
     <Build Include="dbo\Stored Procedures\sp_AddNewBorrower.sql" />
+    <Build Include="Storage\FullTextCatalog.sql" />
+    <Build Include="FullTextIndexes.sql" />
   </ItemGroup>
 </Project>

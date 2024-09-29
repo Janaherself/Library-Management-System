@@ -8,3 +8,8 @@
     PRIMARY KEY CLUSTERED ([BorrowerID] ASC)
 );
 
+
+GO
+CREATE NONCLUSTERED INDEX [ix_Borrowers_LastName_FirstName]
+    ON [dbo].[Borrowers]([LastName] ASC, [FirstName] ASC);
+
